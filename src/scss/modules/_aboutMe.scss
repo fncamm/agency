@@ -1,0 +1,104 @@
+.aboutMe {
+  padding: 133px 166px 100px;
+}
+
+.aboutMe-header {
+  margin-bottom: 69px;
+  font: normal 30px $primary-font;
+  text-transform: uppercase;
+}
+
+.aboutMe-story {
+  margin-right: 98px;
+}
+
+.aboutMe-text,
+.aboutMe-followOn {
+  color: $secondary;
+}
+
+.aboutMe-text {
+  margin-top: 27px;
+  font: 18px/1.57 $primary-font;
+}
+
+.aboutMe-photo {
+  position: relative;
+  top: 31px;
+  right: 32px;
+  align-self: flex-start;
+
+  &::before {
+    position: absolute;
+    z-index: -1;
+    bottom: 31px;
+    left: 32px;
+    width: 96%;
+    height: 96%;
+    border: 6px solid $secondary;
+    content: '';
+    opacity: .21;
+  }
+}
+
+.aboutMe-footer {
+  display: flex;
+  margin-top: 38px;
+}
+
+.aboutMe-followOn {
+  margin-left: -2px;
+  font: 20px $primary-font;
+  text-transform: uppercase;
+  word-spacing: 4px;
+}
+
+.socIcons {
+  display: flex;
+  align-items: flex-end;
+  margin: 3px 0 0 23px;
+
+  .twitter {
+    margin-left: 24px;
+  }
+
+  .dribbble {
+    margin-left: 26px;
+  }
+
+  .behance {
+    margin-left: 26px;
+  }
+}
+
+.services {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 104px;
+}
+
+.service {
+  display: flex;
+  max-width: 295px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.service-image {
+  margin-bottom: 30px;
+  object-fit: contain;
+}
+
+.service-header {
+  margin-bottom: 15px;
+  font: 20px $primary-font;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.service-text {
+  color: $secondary;
+  font: 17px/1.7 $primary-font;
+  letter-spacing: 0.4px;
+}

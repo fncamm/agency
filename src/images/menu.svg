@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="25px" width="42px" >
+  <defs>
+    <line id="line" x1="2" y1="0" x2="40" y2="0" stroke-linecap="round" style="stroke:white;stroke-width:3.5" />
+  </defs>
+  <use xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#line" y="2"/>
+  <use xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#line" y="12.5"/>
+  <use xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#line" y="23"/>	
+</svg>

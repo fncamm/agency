@@ -1,0 +1,61 @@
+.header {
+  padding: 51px 97px;
+  background: url('../images/header-bg.jpg');
+  color: $primary-light;
+  font-family: $primary-font;
+  text-transform: uppercase;
+}
+
+.header-top {
+  display: flex;
+}
+
+.header-logo {
+  font: normal normal 24px $primary-font;
+}
+
+.header-link {
+  color: $primary-light;
+}
+
+.header-menu {
+  width: 43px;
+  height: 25px;
+  margin: 2px 2px 0 auto;
+  background: url('../images/menu.svg') center right/100% 100% no-repeat;
+}
+
+.header-about {
+  margin: 239px 0 239px -2px;
+  font-size: 48px;
+  letter-spacing: 0.5px;
+  line-height: 1.125;
+}
+
+.read-more {
+  display: flex;
+  margin: 21px 0 0 2px;
+  color: $primary-light;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.scroll-down {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: -25px 0 5px -1px;
+  color: $primary-light;
+  font: 300 16px $primary-font;
+  letter-spacing: 1px;
+
+  &::before {
+    position: absolute;
+    bottom: 34px;
+    left: calc(50% - 10px);
+    width: 20px;
+    height: 28px;
+    background: url('../images/scroll-down.svg') center/100% 100% no-repeat;
+    content: '';
+  }
+}

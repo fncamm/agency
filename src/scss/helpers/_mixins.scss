@@ -1,0 +1,5 @@
+@mixin socialIcon($width, $height, $name) {
+  width: $width;
+  height: $height;
+  background: url('../images/'+$name+'.png') no-repeat;
+}
